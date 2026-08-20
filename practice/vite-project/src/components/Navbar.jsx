@@ -10,6 +10,7 @@ const Navbar = () => {
          <Link to='/about'>About</Link>
          <Link to='/contact'>Contact</Link>
          <Link to='/product'>product</Link>
+         <Link to='/cources'>product</Link>
         </ul>
       </nav>
   )

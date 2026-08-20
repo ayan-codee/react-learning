@@ -8,6 +8,7 @@ import Navbar from './components/navbar';
 import Product from './pages/Product';
 import Men from './pages/Men';
 import Women from './pages/Women';
+import Cources from './pages/Cources';
 
 const App = () => {
   return (
@@ -17,6 +18,9 @@ const App = () => {
         <Route path='/' element={<Home/>} />
         <Route path='/about' element={<About/>} />
         <Route path='/contact' element={<Contact/>} />
+        <Route path='/cources' element={<Cources/>} />
+        <Route path='/cources/:id' element={<Cources/>} />
+
         <Route path='/Product' element={<Product/>}>
         <Route path='men' element={<Men/>}/>
         <Route path='women' element={<Women/>}/>
