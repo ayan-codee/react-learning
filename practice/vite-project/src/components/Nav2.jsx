@@ -1,5 +1,6 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
+import Navbar from './Navbar'
 
 const Nav2 = () => {
     const navigate = useNavigate()

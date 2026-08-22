@@ -4,7 +4,7 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Contact from './pages/Contact'
 import Notfound from './pages/Notfound';
-import Navbar from './components/navbar';
+import Navbar from './components/Navbar';
 import Product from './pages/Product';
 import Men from './pages/Men';
 import Women from './pages/Women';
@@ -14,7 +14,10 @@ import Nav2 from './components/Nav2';
 const App = () => {
   return (
     <div>
-      <Navbar/>
+      <Navbar theme='blue'>
+        <h2>hello i am ayan</h2>
+        <h2>hello, hows gongg</h2>
+      </Navbar>
       <Nav2/>
       <Routes>
         <Route path='/' element={<Home/>} />
